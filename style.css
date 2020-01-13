@@ -82,6 +82,7 @@ article p {
 .more-stories article {
     margin-top: 10px;
     padding-top: 15px;
+    margin-bottom: 25px;
     border-top: 1px solid rgba(3,3,3,.2);
 }
 
@@ -107,4 +108,45 @@ a:hover {
 
 .clear {
     clear: both;
+}
+
+.culture-travel {
+    background-color: rgba(3,3,3,.03);
+    padding-top: 5px;
+}
+
+.culture-travel article {
+    padding-bottom: 10px;
+}
+
+.culture-travel h1 {
+    margin: 10px;
+}
+
+.culture-travel img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.culture-travel article > *:not(img) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.culture-travel h2 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.culture-travel p {
+    color: rgba(3,3,3,.6);
+}
+
+.tag {
+    background-color: #c2d4d7;
+    font-size: 0.9em;
+    width: fit-content;
+    padding: 1px 7px;
+    border-radius: 10%;
+    margin-bottom: 20px;
 }
