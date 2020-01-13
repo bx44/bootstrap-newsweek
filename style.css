@@ -1,0 +1,39 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    height: 50px;
+    background-color: #f72210;
+    color: white;
+    font-weight: bold;
+}
+
+.header-nav {
+    align-self: center;
+}
+
+.header-nav > div {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.sign-in,
+.subscribe {
+    text-transform: uppercase;
+    vertical-align: text-bottom;
+}
+
+.subscribe {
+    color: #f72210;
+    background-color: white;
+}
+
+.burger-button {
+    font-size: 2em;
+    color: lightgray;
+}
