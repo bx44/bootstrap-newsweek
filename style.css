@@ -150,3 +150,28 @@ a:hover {
     border-radius: 10%;
     margin-bottom: 20px;
 }
+
+.opinion h2 {
+    margin: 0;
+}
+
+.opinion article {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.opinion > article:not(:last-of-type) {
+    border-bottom: 1px solid rgba(3,3,3,.2);
+}
+
+.opinion img {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.author {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: rgba(3,3,3,.6)
+}
