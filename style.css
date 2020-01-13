@@ -1,5 +1,5 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -36,4 +36,75 @@ header {
 .burger-button {
     font-size: 2em;
     color: lightgray;
+}
+
+main {
+    margin: 15px;
+}
+
+h1 {
+    font-size: 1em;
+    color: rgba(3,3,3,.4);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.article-img {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.article-img img {
+    width: 100%;
+}
+
+.article-img .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: lightgray;
+    color: #f72210;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+article p {
+    font-size: 0.9em;
+}
+
+.more-stories article {
+    margin-top: 10px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(3,3,3,.2);
+}
+
+.more-stories img {
+    width: 60%;
+    margin-right: 10px;
+    float: left;
+}
+
+.more-stories h2 {
+    font-size: 1em;
+}
+
+.more-stories p {
+    font-size: 0.8em;
+}
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
 }
