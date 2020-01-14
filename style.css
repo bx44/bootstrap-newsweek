@@ -215,10 +215,8 @@ article p {
 
 .centered-title {
     text-align: center;
-}
-
-.centered-title * {
-    text-align: left;
+    border-bottom: 1px solid rgba(3,3,3,.2);
+    margin-bottom: 10px;
 }
 
 .centered-title > h2 {
