@@ -195,6 +195,7 @@ article p {
     height: 28px;
     background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
     margin-right: 10px;
+    position: relative;
 }
 
 .cover {
@@ -327,4 +328,40 @@ article p {
     height: 22px;
     border-width: 11px 0 11px 22px;
     margin: 12px;
+}
+
+.logo-n1.doubled-logo {
+    margin-bottom: 5px;
+}
+
+.doubled-logo h2 {
+    line-height: 33px;;
+}
+
+.doubled-logo::after {
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    display: block;
+    content: "";
+    width: 26px;
+    height: 25px;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+}
+
+.featured-slideshows article {
+    margin-bottom: 30px;
+}
+
+.featured-slideshows .caption {
+    background: url(img/slideshow-icon.png) 0 0/contain no-repeat;
+    color: #f72210;
+    width: 70px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
 }
