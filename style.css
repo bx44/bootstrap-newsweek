@@ -41,12 +41,12 @@ header {
 }
 
 .sign-in,
-.subscribe {
+.subscribe-nav {
     text-transform: uppercase;
     vertical-align: text-bottom;
 }
 
-.subscribe {
+.subscribe-nav {
     color: #f72210;
     background-color: white;
 }
@@ -124,8 +124,11 @@ article p {
 }
 
 .culture-travel {
-    background-color: rgba(3,3,3,.03);
     padding-top: 5px;
+}
+
+.shaded-background {
+    background-color: rgba(3,3,3,.03);
 }
 
 .culture-travel article {
@@ -196,10 +199,6 @@ article p {
     background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
     margin-right: 10px;
     position: relative;
-}
-
-.cover {
-    background-color: rgba(3,3,3,.03);
 }
 
 .see-more {
@@ -364,4 +363,52 @@ article p {
     line-height: 58px;
     text-indent: 5px;
     text-align: center;
+}
+
+.separate-section::before {
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid rgba(3,3,3,.2);
+    height: 10px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.small-title {
+    color: #f72210;
+    font-size: 0.95em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.subscribe article {
+    padding: 20px;
+    text-align: center;
+}
+
+.half-image {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.half-image img {
+    width: 100%;
+}
+
+.subscribe h3 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.button {
+    background-color: #f72210;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0 auto;
 }
