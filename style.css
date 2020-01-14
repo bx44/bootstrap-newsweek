@@ -2,6 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 a,
@@ -25,7 +27,7 @@ header {
     font-weight: bold;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 99;
     padding-top: 10px;
 }
 
@@ -113,7 +115,7 @@ article p {
 .float-image-left article {
     margin-top: 10px;
     padding-top: 15px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     border-top: 1px solid rgba(3,3,3,.2);
 }
 
@@ -225,6 +227,7 @@ article p {
     text-align: center;
     border-bottom: 1px solid rgba(3,3,3,.2);
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .centered-title > h2 {
@@ -279,20 +282,20 @@ article p {
     color: white;
 }
 
-.conversations article:first-of-type h2 {
+.conversations .main-conversation h2 {
     font-size: 1.5em;
 }
 
-.conversations article:not(:first-of-type) {
+.conversations .additional-conversations article {
     padding-top: 20px;
 }
 
-.conversations article:not(:first-of-type) .article-img {
+.additional-conversations .article-img {
     width: 40%;
     float: left;
 }
 
-.conversations article:not(:first-of-type) h2 {
+.additional-conversations h2 {
     display: inline;
     font-size: 1em;
     line-height: 10px;
@@ -325,12 +328,12 @@ article p {
     margin: 15px auto;
 }
 
-.conversations article:not(:first-of-type) .play-button {
+.additional-conversations article .play-button {
     width: 45px;
     height: 45px;
 }
 
-.conversations article:not(:first-of-type) .play-icon {
+.additional-conversations article .play-icon {
     width: 22px;
     height: 22px;
     border-width: 11px 0 11px 22px;
@@ -398,7 +401,7 @@ article p {
 }
 
 .half-image {
-    width: 50%;
+    max-width: 50%;
     margin: 0 auto;
 }
 
