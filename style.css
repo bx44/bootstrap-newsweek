@@ -30,11 +30,16 @@ header {
 
 .header-nav {
     align-self: center;
+    font-size: 0.9em;
+    text-align: right;
 }
 
 .header-nav > div {
     display: inline-block;
-    margin: 0 10px 0 10px;
+}
+
+.header-nav > div:not(:last-of-type) {
+    margin-right: 5px;
 }
 
 .logo {
@@ -53,8 +58,8 @@ header {
 }
 
 .burger-button {
-    font-size: 2em;
-    color: lightgray;
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.8);
 }
 
 main {
