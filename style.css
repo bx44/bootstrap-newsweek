@@ -26,6 +26,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1;
+    padding-top: 10px;
 }
 
 .header-nav {
@@ -42,8 +43,9 @@ header {
     margin-right: 5px;
 }
 
-.logo {
-    font-size: 2em;
+.logo svg {
+    fill: white;
+    height: 1.8em;
 }
 
 .sign-in,
