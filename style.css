@@ -13,6 +13,10 @@ a:hover {
     clear: both;
 }
 
+.hide {
+    display: none;
+}
+
 header {
     height: 50px;
     background-color: #f72210;
@@ -54,6 +58,10 @@ header {
 
 main {
     margin: 15px;
+}
+
+section {
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -189,6 +197,22 @@ article p {
     margin-right: 10px;
 }
 
+.cover {
+    background-color: rgba(3,3,3,.03);
+}
+
+.see-more {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cover .article-img .caption {
+    background-color: white;
+    color: #f72210;
+}
+
 .centered-title {
     text-align: center;
 }
@@ -201,6 +225,37 @@ article p {
     line-height: 28px;
     display: inline-block;
     vertical-align: bottom;
+}
+
+.in-the-magazine img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mag-tag {
+    padding: 0 5px;
+    color: white;
+    background-color: #f72210;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cat-tag {
+    padding: 0 5px;
+    color: #f72210;
+    background-color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.in-the-magazine h3 {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .conversations article {
