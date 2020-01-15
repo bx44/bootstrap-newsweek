@@ -1,0 +1,67 @@
+@media only screen and (min-width: 992px) {
+    body {
+        padding-top: 115px;
+    }
+
+    header {
+        height: 100px;
+        position: absolute;
+        left: 0;
+    }
+
+    header .row  {
+        align-items: flex-end;
+        padding-left: 15px;
+    }
+
+    .header-nav {
+        align-self: auto;
+    }
+
+    header .logo {
+        text-align: center;
+    }
+
+    .logo svg {
+        height: 4em;
+    }
+
+    .lg-bar {
+        height: 56px;
+        background-color: white;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: black;
+        list-style: none;
+        padding: 15px 0;
+        margin: 0;
+        padding-inline-start: 0;
+        position: absolute;
+        left: 0;
+        top: 90px;
+        border-bottom: 1px solid rgba(3,3,3,0.2);
+        border-radius: 0 50px 50px 0;
+    }
+
+    .lg-bar li {
+        display: inline-block;
+    }
+
+    .lg-bar li:not(:last-of-type) {
+        border-right: 1px solid rgba(3,3,3,0.2);
+    }
+
+    .search {
+        color: rgba(3,3,3,0.6)
+    }
+
+    .search::after {
+        background: url(img/icon-search-glass.svg) center/contain no-repeat white;
+        opacity: 0.8;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        content: "";
+        margin: 0 20px -4px 10px;
+    }
+}
