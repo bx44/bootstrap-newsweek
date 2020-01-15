@@ -109,6 +109,21 @@
     display: none;
   }
 
+  .subscribe article {
+    height: 250px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .newsletter article {
+    height: 250px;
+    margin-right: 15px;
+  }
+
+  .newsletter img {
+    height: unset;
+  }
+
   header,
   main,
   footer {
