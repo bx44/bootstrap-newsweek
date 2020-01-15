@@ -1,4 +1,4 @@
-# Newsweek.com Layoout
+# Newsweek.com Layout
 > A copy of Newsweek.com, built from scratch, using Bootstrap for the layout.
 > The original requirements for thiss project can be found at [The Oddin Prooject](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap).
 > The resources used are from the original website.
