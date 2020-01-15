@@ -115,8 +115,6 @@ article p {
 .float-image-left article {
   margin-top: 10px;
   padding-top: 15px;
-
-  /* margin-bottom: 25px; */
   border-top: 1px solid rgba(3, 3, 3, 0.2);
 }
 
