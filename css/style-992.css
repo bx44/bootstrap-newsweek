@@ -62,7 +62,7 @@
   }
 
   .search::after {
-    background: url(img/icon-search-glass.svg) center/contain no-repeat white;
+    background: url(../img/icon-search-glass.svg) center/contain no-repeat white;
     opacity: 0.8;
     width: 20px;
     height: 20px;

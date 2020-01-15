@@ -364,7 +364,7 @@ article p {
 }
 
 .featured-slideshows .caption {
-  background: url(img/slideshow-icon.png) 0 0/contain no-repeat;
+  background: url(../img/slideshow-icon.png) 0 0/contain no-repeat;
   color: #f72210;
   width: 70px;
   height: 52px;
