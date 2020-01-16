@@ -2,7 +2,7 @@
   body {
     padding-top: 65px;
   }
-  
+
   .header-nav {
     font-size: 1.1em;
   }
@@ -121,6 +121,14 @@
 
   .newsletter article {
     padding: 0;
+  }
+
+  .additional-articles.float-image-left img {
+    width: 33%;
+  }
+
+  .additional-articles.float-image-left article:first-of-type {
+    margin-top: -10px;
   }
 
   .brand-bar article {
