@@ -15,6 +15,10 @@
     position: relative;
   }
 
+  main .first-part {
+    margin-bottom: 40px;
+  }
+
   .featured-stories {
     position: absolute;
   }
@@ -25,6 +29,8 @@
 
   .cover {
     margin-top: 20px;
+    margin-bottom: -25px;
+    padding: 0;
   }
 
   .cover .see-more {
@@ -34,6 +40,11 @@
 
   .cover .caption {
     font-size: 0.9em;
+  }
+
+  .cover img {
+    height: 208px;
+    object-fit: contain;
   }
 
   .in-the-magazine {
