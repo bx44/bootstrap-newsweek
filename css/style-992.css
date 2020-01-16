@@ -1,0 +1,161 @@
+@media only screen and (min-width: 992px) {
+  body {
+    padding-top: 0;
+    background-color: #f4f5f6;
+  }
+
+  header.container-fluid {
+    height: 100px;
+    position: static;
+    padding-left: 0;
+  }
+
+  header div.row {
+    align-items: flex-end;
+    padding-left: 30px;
+  }
+
+  .header-nav {
+    align-self: auto;
+  }
+
+  header .logo {
+    text-align: center;
+  }
+
+  .logo svg {
+    height: 4em;
+  }
+
+  .lg-bar {
+    top: 9px;
+    height: 56px;
+    background-color: white;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+    padding-inline-start: 0;
+    border-bottom: 1px solid rgba(3, 3, 3, 0.2);
+    border-radius: 0 50px 50px 0;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .lg-bar li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .lg-bar li:first-of-type {
+    padding-left: 15px;
+  }
+
+  .lg-bar li:not(:last-of-type) {
+    border-right: 1px solid rgba(3, 3, 3, 0.2);
+  }
+
+  .search {
+    color: rgba(3, 3, 3, 0.6);
+  }
+
+  .search::after {
+    background: url(../img/icon-search-glass.svg) center/contain no-repeat white;
+    opacity: 0.8;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: "";
+    margin: 0 20px -4px 10px;
+  }
+
+  main {
+    margin-top: 0;
+    padding-top: 15px;
+  }
+
+  .first-part {
+    top: 35px;
+  }
+
+  .second-part {
+    margin-top: 70px;
+  }
+
+  .featured-stories {
+    position: absolute;
+  }
+
+  .right-sidebar {
+    position: absolute;
+  }
+
+  .latest-news img {
+    width: 100px;
+  }
+
+  .cover {
+    margin-top: 0;
+    margin-bottom: -120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+  }
+
+  .cover img {
+    height: 265px;
+  }
+
+  .cover .see-more {
+    background-color: rgba(3, 3, 3, 0.03);
+  }
+
+  .in-the-magazine {
+    top: -200px;
+    margin-bottom: -200px;
+  }
+
+  .sports {
+    border-bottom: 1px solid rgba(3, 3, 3, 0.1);
+  }
+
+  .subscribe.separate-section::before {
+    display: none;
+  }
+
+  .subscribe article {
+    height: 250px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .newsletter article {
+    height: 250px;
+    margin-right: 15px;
+  }
+
+  .newsletter img {
+    height: unset;
+  }
+
+  header,
+  main,
+  footer {
+    max-width: 1310px;
+  }
+
+  main,
+  footer {
+    background-color: white;
+  }
+
+  footer {
+    margin: 0 auto;
+  }
+}
