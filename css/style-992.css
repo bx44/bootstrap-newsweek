@@ -134,4 +134,8 @@
   footer {
     background-color: white;
   }
+
+  footer {
+    margin: 0 auto;
+  }
 }
