@@ -382,6 +382,12 @@ article p {
   text-align: center;
 }
 
+.additional-articles.float-image-left article:first-of-type {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .separate-section::before {
   content: "";
   width: 100%;
@@ -396,6 +402,15 @@ article p {
   font-size: 0.95em;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.big-title {
+  color: #f72210;
+  font-size: 1.4em;
+  font-weight: bold;
   text-align: left;
   margin-bottom: 10px;
   display: block;
